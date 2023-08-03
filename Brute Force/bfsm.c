@@ -7,7 +7,7 @@ void string(int *t, int *p, int m)
     {
         int j = 0;
         count++;
-        while (j < m && p[j] == t[j + 1])
+        while (j < m && p[j] == t[j + i])
         {
             count++;
             j++;
