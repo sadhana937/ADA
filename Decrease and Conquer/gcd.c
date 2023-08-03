@@ -107,14 +107,5 @@ void analysis(int ch)
 void main()
 {
     for (int ch = 1; ch <= 3; ch++)
-    {
-        switch (ch)
-        {
-        case 1:
-        case 2:
-        case 3:
             analysis(ch);
-            break;
-        }
-    }
 }
