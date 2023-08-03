@@ -62,7 +62,7 @@ void main()
         fprintf(fp, "%d\t%d\t", n,count);
         count = 0;
 
-        // worst case
+        // average case
         for (int i = 1; i <= n; i++)
                 a[i] = rand()%100;
         heapsort(a, n);
